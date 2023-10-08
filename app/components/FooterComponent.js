@@ -36,7 +36,7 @@ export function SimpleFooter() {
           color="blue-gray"
           className="font-normal transition-colors hover:text-teal-500 focus:text-teal-500"
         >
-          <Link href="#">/contact</Link>
+          <Link href="/">/contact</Link>
         </Typography>
       </ul>
     </footer>
