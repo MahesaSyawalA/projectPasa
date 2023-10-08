@@ -13,28 +13,28 @@ export function SimpleFooter() {
         <Typography
           as="li"
           color="blue-gray"
-          className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
+          className="font-normal transition-colors hover:text-teal-500 focus:text-teal-500"
         >
           <Link href="/">/home</Link>
         </Typography>
         <Typography
           as="li"
           color="blue-gray"
-          className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
+          className="font-normal transition-colors hover:text-teal-500 focus:text-teal-500"
         >
           <Link href="/about">/about</Link>
         </Typography>
         <Typography
           as="li"
           color="blue-gray"
-          className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
+          className="font-normal transition-colors hover:text-teal-500 focus:text-teal-500"
         >
           <Link href="/projects">/projects</Link>
         </Typography>
         <Typography
           as="li"
           color="blue-gray"
-          className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
+          className="font-normal transition-colors hover:text-teal-500 focus:text-teal-500"
         >
           <Link href="#">/contact</Link>
         </Typography>
