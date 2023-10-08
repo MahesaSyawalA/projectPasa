@@ -33,7 +33,11 @@ const ProjectCard = ({
         <Typography variant="h5" color="blue-gray">
           {title}
         </Typography>
-        <Typography variant="text" color="gray" className="mt-3 font-normal">
+        <Typography
+          variant="paragraph"
+          color="gray"
+          className="mt-3 font-normal"
+        >
           {description}
         </Typography>
       </CardBody>

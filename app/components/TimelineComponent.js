@@ -23,7 +23,7 @@ export function WorkTimeline() {
           </TimelineHeader>
           <TimelineBody className="pb-8 pt-1">
             <Typography
-              variant="text"
+              variant="paragraph"
               color="blue-gray"
               className="leading-none mb-1"
             >
@@ -47,7 +47,7 @@ export function WorkTimeline() {
           </TimelineHeader>
           <TimelineBody className="pb-8 pt-1">
             <Typography
-              variant="text"
+              variant="paragraph"
               color="blue-gray"
               className="leading-none mb-1"
             >
@@ -81,7 +81,7 @@ export function EducationTimeline() {
           </TimelineHeader>
           <TimelineBody className="pb-8 pt-1">
             <Typography
-              variant="text"
+              variant="paragraph"
               color="gary"
               className="leading-none mb-1"
             >
@@ -105,7 +105,7 @@ export function EducationTimeline() {
           </TimelineHeader>
           <TimelineBody className="pb-8 pt-1">
             <Typography
-              variant="text"
+              variant="paragraph"
               color="gary"
               className="leading-none mb-1"
             >

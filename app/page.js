@@ -16,6 +16,7 @@ export default function Home() {
           alt="Picture of the author"
           width={250}
           height={250}
+          priority
         />
         <div>
           <h1 className="text-center lg:text-start text-4xl lg:text-5xl text-neutral-800 dark:text-neutral-100 font-bold mb-4">
