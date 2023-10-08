@@ -1,5 +1,3 @@
-"use client";
-import React from "react";
 import {
   Timeline,
   TimelineItem,
@@ -10,7 +8,7 @@ import {
   Typography,
 } from "@material-tailwind/react";
 
-export function WorkTimeline() {
+export function EducationTimeline() {
   return (
     <div className="w-[32rem]">
       <Timeline>
@@ -19,23 +17,23 @@ export function WorkTimeline() {
           <TimelineHeader className="h-3">
             <TimelineIcon />
             <Typography variant="h5" color="blue-gray" className="leading-none">
-              CV. Bilga Buana Technology
+              Institut Teknologi Nasional Bandung
             </Typography>
           </TimelineHeader>
           <TimelineBody className="pb-8 pt-1">
             <Typography
               variant="paragraph"
-              color="blue-gray"
+              color="gray"
               className="leading-none mb-1"
             >
-              Web Developer (Full Time)
+              Informatics
             </Typography>
             <Typography
               variant="small"
               color="gray"
               className="font-normal text-gray-600"
             >
-              Aug 2023 - Sep 2023
+              Sep 2023 - Present
             </Typography>
           </TimelineBody>
         </TimelineItem>
@@ -43,23 +41,23 @@ export function WorkTimeline() {
           <TimelineHeader className="h-3">
             <TimelineIcon />
             <Typography variant="h5" color="blue-gray" className="leading-none">
-              PT. Basicteknologi Intersolusi Tersinergi
+              SMK Negeri 13 Bandung
             </Typography>
           </TimelineHeader>
           <TimelineBody className="pb-8 pt-1">
             <Typography
               variant="paragraph"
-              color="blue-gray"
+              color="gray"
               className="leading-none mb-1"
             >
-              Web Developer (Internship)
+              Software Engineering
             </Typography>
             <Typography
               variant="small"
               color="gray"
               className="font-normal text-gray-600"
             >
-              Oct 2022 - Mar 2023
+              Jul 2020 - May 2023
             </Typography>
           </TimelineBody>
         </TimelineItem>
@@ -67,4 +65,3 @@ export function WorkTimeline() {
     </div>
   );
 }
-

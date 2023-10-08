@@ -15,8 +15,8 @@ import {
 } from "react-icons/tb";
 import {
   WorkTimeline,
-  EducationTimeline,
 } from "./../components/TimelineComponent";
+import { EducationTimeline } from "../components/educationComponent";
 
 function AboutPage() {
   return (
