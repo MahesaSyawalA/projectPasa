@@ -44,7 +44,6 @@ const ProjectCard = ({
       <CardFooter className="flex items-center justify-between py-2">
         <div className="flex items-center -space-x-3">
           <Typography
-            as="text"
             variant="paragraph"
             color="blue-gray"
             className="font-normal"

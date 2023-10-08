@@ -31,7 +31,7 @@ export function WorkTimeline() {
             </Typography>
             <Typography
               variant="small"
-              color="gary"
+              color="gray"
               className="font-normal text-gray-600"
             >
               Aug 2023 - Sep 2023
@@ -55,7 +55,7 @@ export function WorkTimeline() {
             </Typography>
             <Typography
               variant="small"
-              color="gary"
+              color="gray"
               className="font-normal text-gray-600"
             >
               Oct 2022 - Mar 2023
@@ -82,14 +82,14 @@ export function EducationTimeline() {
           <TimelineBody className="pb-8 pt-1">
             <Typography
               variant="paragraph"
-              color="gary"
+              color="gray"
               className="leading-none mb-1"
             >
               Informatics
             </Typography>
             <Typography
               variant="small"
-              color="gary"
+              color="gray"
               className="font-normal text-gray-600"
             >
               Sep 2023 - Present
@@ -106,14 +106,14 @@ export function EducationTimeline() {
           <TimelineBody className="pb-8 pt-1">
             <Typography
               variant="paragraph"
-              color="gary"
+              color="gray"
               className="leading-none mb-1"
             >
               Software Engineering
             </Typography>
             <Typography
               variant="small"
-              color="gary"
+              color="gray"
               className="font-normal text-gray-600"
             >
               Jul 2020 - May 2023
