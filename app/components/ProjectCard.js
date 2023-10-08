@@ -8,7 +8,7 @@ import {
   Typography,
 } from "@material-tailwind/react";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { TbBrandGithub, TbEye } from "react-icons/tb";
 
 const ProjectCard = ({
@@ -45,7 +45,7 @@ const ProjectCard = ({
         <div className="flex items-center -space-x-3">
           <Typography
             as="text"
-            variant="medium"
+            variant="paragraph"
             color="blue-gray"
             className="font-normal"
           >
