@@ -30,19 +30,19 @@ export default function HomePage() {
             </p>
             <div className="flex lg:justify-normal items-center justify-center gap-2">
               <Link
-                className="bg-white flex items-center gap-6 rounded-full text-3xl hover:text-teal-500 transition-colors"
+                className="flex items-center gap-6 text-3xl hover:text-teal-500 transition-colors"
                 href="https://github.com/miqbalps"
               >
                 <TbBrandGithub />
               </Link>
               <Link
-                className="bg-white flex items-center gap-6 rounded-full text-3xl hover:text-teal-500 transition-colors"
+                className="flex items-center gap-6 text-3xl hover:text-teal-500 transition-colors"
                 href="https://www.linkedin.com/in/iqbalpasha/"
               >
                 <TbBrandLinkedin />
               </Link>
               <Link
-                className="bg-white flex items-center gap-6 rounded-full text-3xl hover:text-teal-500 transition-colors"
+                className="flex items-center gap-6 text-3xl hover:text-teal-500 transition-colors"
                 href="https://www.instagram.com/miqbalpasha_/"
               >
                 <TbBrandInstagram />
