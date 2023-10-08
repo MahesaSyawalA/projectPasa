@@ -1,12 +1,13 @@
+import React from "react";
+import Image from "next/image";
 import Link from "next/link";
-import Image from "next/legacy/image";
 import {
   TbBrandGithub,
   TbBrandInstagram,
   TbBrandLinkedin,
 } from "react-icons/tb";
 
-export default function Home() {
+function HomePage() {
   return (
     <div className="md:px-12 lg:px-6">
       <div className="w-full flex flex-col lg:flex-row-reverse items-center gap-6 lg:gap-24">
@@ -51,3 +52,5 @@ export default function Home() {
     </div>
   );
 }
+
+export default HomePage;

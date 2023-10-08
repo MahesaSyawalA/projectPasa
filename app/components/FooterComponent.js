@@ -1,4 +1,5 @@
 "use client";
+import React from "react";
 import { Typography } from "@material-tailwind/react";
 import Link from "next/link";
 
@@ -11,7 +12,6 @@ export function SimpleFooter() {
       <ul className="flex flex-wrap items-center gap-y-2 gap-x-8">
         <Typography
           as="li"
-          href="#"
           color="blue-gray"
           className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
         >
@@ -19,7 +19,6 @@ export function SimpleFooter() {
         </Typography>
         <Typography
           as="li"
-          href="#"
           color="blue-gray"
           className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
         >
@@ -27,7 +26,6 @@ export function SimpleFooter() {
         </Typography>
         <Typography
           as="li"
-          href="#"
           color="blue-gray"
           className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
         >
@@ -35,7 +33,6 @@ export function SimpleFooter() {
         </Typography>
         <Typography
           as="li"
-          href="#"
           color="blue-gray"
           className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
         >

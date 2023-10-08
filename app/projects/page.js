@@ -37,13 +37,13 @@ const projectsData = [
 const ProjectPage = () => {
   return (
     <div>
-      <h1 className="text-center lg:text-start text-4xl text-neutral-800 dark:text-neutral-100 font-bold mb-4">
+      <h1 className="text-center md:text-start text-4xl text-neutral-800 dark:text-neutral-100 font-bold mb-4">
         Featured Projects
       </h1>
       <h3 className="mb-6">
         Check out my github repository for my other works
       </h3>
-      <div className="w-full items-center grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-12">
+      <div className="w-full items-center flex flex-col md:flex-row md:flex-wrap justify-center gap-6 lg:gap-12">
         {projectsData.map((project) => (
           <ProjectCard
             key={project.id}

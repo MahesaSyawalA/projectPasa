@@ -8,7 +8,7 @@ import {
   Typography,
 } from "@material-tailwind/react";
 import Link from "next/link";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import { TbBrandGithub, TbEye } from "react-icons/tb";
 
 const ProjectCard = ({
