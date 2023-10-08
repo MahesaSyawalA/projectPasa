@@ -23,7 +23,7 @@ function AboutPage() {
     <div>
       <div className="mb-8">
         <h1 className="text-center flex gap-2 lg:text-start text-4xl text-neutral-800 dark:text-neutral-100 font-bold mb-4">
-          💻 Tech Stack
+          Technology I Use
         </h1>
         <div className="flex text-4xl ps-6">
           <TbBrandHtml5 />
@@ -40,13 +40,13 @@ function AboutPage() {
       </div>
       <div>
         <h1 className="text-center flex gap-2 lg:text-start text-4xl text-neutral-800 dark:text-neutral-100 font-bold mb-4">
-          💼 Work Experience
+          <TbBriefcase /> Work Experience
         </h1>
         <WorkTimeline />
       </div>
       <div>
         <h1 className="text-center flex gap-2 lg:text-start text-4xl text-neutral-800 dark:text-neutral-100 font-bold mb-4">
-          🎓 Education
+          <TbSchool /> Education
         </h1>
         <EducationTimeline />
       </div>

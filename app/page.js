@@ -11,7 +11,7 @@ export default function Home() {
     <div className="md:px-12 lg:px-6">
       <div className="w-full flex flex-col lg:flex-row-reverse items-center gap-6 lg:gap-24">
         <Image
-          src="/images/profil.jpg"
+          src="/images/profil.webp"
           className="rounded-full border-4 mb-4"
           alt="Picture of the author"
           width={250}
