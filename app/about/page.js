@@ -20,7 +20,7 @@ import {
 
 function AboutPage() {
   return (
-    <>
+    <main className="flex max-w-screen-lg mx-auto justify-center grow flex-col p-6 lg:px-20 lg:py-10">
       <div className="mb-8">
         <h1 className="text-center flex gap-2 lg:text-start text-4xl text-neutral-800 dark:text-neutral-100 font-bold mb-4">
           Tech Stack
@@ -50,7 +50,7 @@ function AboutPage() {
         </h1>
         <EducationTimeline />
       </div>
-    </>
+    </main>
   );
 }
 
