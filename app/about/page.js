@@ -23,7 +23,7 @@ function AboutPage() {
     <>
       <div className="mb-8">
         <h1 className="text-center flex gap-2 lg:text-start text-4xl text-neutral-800 dark:text-neutral-100 font-bold mb-4">
-          Technology I Use
+          Tech Stack
         </h1>
         <div className="flex text-4xl ps-6">
           <TbBrandHtml5 />
