@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectCard from "./../components/ProjectCard";
 
-const projectsData = [
+export const projectsData = [
   {
     id: 1,
     title: "Rent Workspace Website",

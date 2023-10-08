@@ -7,7 +7,7 @@ import {
   TbBrandLinkedin,
 } from "react-icons/tb";
 
-function HomePage() {
+export default function HomePage() {
   return (
     <div className="md:px-12 lg:px-6">
       <div className="w-full flex flex-col lg:flex-row-reverse items-center gap-6 lg:gap-24">
@@ -52,5 +52,3 @@ function HomePage() {
     </div>
   );
 }
-
-export default HomePage;
